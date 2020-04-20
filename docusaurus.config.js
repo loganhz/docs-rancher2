@@ -17,34 +17,39 @@ module.exports = {
       links: [
         {
           href: 'https://docs.rancher.cn/',
+          label: 'RKE',
+          position: 'left'
+        },
+        {
+          href: 'https://docs.rancher.cn/',
+          label: 'K3s',
+          position: 'left'
+        },
+        {
+          href: 'https://docs.rancher.cn/',
+          label: 'Longhorn',
+          position: 'left'
+        },
+        {
+          href: 'https://docs.rancher.cn/',
           label: '文档中心',
           position: 'left'
-        },
-        { to: 'pdf', label: '获取 PDF 文档', position: 'left' },
-        {
-          href: 'https://www.rancher.cn/weixin/',
-          label: '微信',
-          position: 'left'
-        },
-        {
-          href: 'https://www.rancher.cn/',
-          label: '中国官网',
-          position: 'right'
         },
         {
           href:
             'https://rancher.com/support-maintenance-terms/all-supported-versions/',
           label: '支持矩阵',
+          position: 'left'
+        },
+        { to: 'pdf', label: '获取 PDF 文档', position: 'right' },
+        {
+          href: 'https://www.rancher.cn/weixin/',
+          label: '微信交流群',
           position: 'right'
         },
         {
           href: 'https://www.rancher.cn/support/',
           label: '技术支持',
-          position: 'right'
-        },
-        {
-          href: 'https://github.com/rancher/rancher',
-          label: 'GitHub',
           position: 'right'
         }
       ]
